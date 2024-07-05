@@ -7,3 +7,5 @@ const loginappdb = await mysql.createConnection({
   database: process.env.MYSQL2DATABASE,
   password: process.env.MYSQL2PASSWORD,
 });
+
+export { loginappdb };
